@@ -32,7 +32,7 @@
 			'11' => '11 - Noviembre',
 			'12' => '12 - Diciembre',
 		),
-		'conekta_title'          => 'Acepta tarjetas de crédito y debito, efectivo o transferencias bancarias',
+		'conekta_title'          => 'Acepta tarjetas de crédito y débito',
 		'card_name'              => 'Nombre del tarjetahabiente',
 		'card_number'            => 'Número de la tarjeta',
 		'month_options'          => 'Mes de expiración',
