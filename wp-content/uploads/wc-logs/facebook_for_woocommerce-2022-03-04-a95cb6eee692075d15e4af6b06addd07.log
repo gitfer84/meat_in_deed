@@ -1,0 +1,4 @@
+03-04-2022 @ 22:42:50 - Unable to detect valid feed configuration: No catalog ID
+03-04-2022 @ 22:43:33 - Unable to detect valid feed configuration: No catalog ID
+03-04-2022 @ 23:50:48 - There was an error trying sync products using the Catalog Batch API for job 77a835e646b88590a014f917624f977c: No se puede crear la instancia de la API porque falta el token de acceso.
+03-04-2022 @ 23:51:12 - There was an error trying sync products using the Catalog Batch API for job 9c7d73404ea7cb389125b06989d6150d: No se puede crear la instancia de la API porque falta el token de acceso.

@@ -297,7 +297,16 @@ button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover,
     color: #f5c375;
 }
 
+/* Porder productos inicio y secciones */
+.wc-block-grid__product{
+    border: solid #e9e9e9 1px;
+}
 
+.site-main ul.products.columns-3 li.product{
+    border: solid #e9e9e9 1px;
+    height: 400px;
+
+}
 
 @media screen and ( min-width: 768px ) {
     .secondary-navigation ul.menu a:hover {
@@ -351,4 +360,10 @@ button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover,
 /* Single product */
 .single-product div.product p.price {
     color: rgb(143, 58, 1);
+}
+
+.myBanner{
+    height: 100px;
+    width: 100%;
+    background-color: #570000;
 }

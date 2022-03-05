@@ -19,6 +19,20 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+
+if (strstr($_SERVER['SERVER_NAME'],'localhost')) {
+	define( 'DB_NAME', 'meatindeed' );
+	define( 'DB_USER', 'root' );
+	define( 'DB_PASSWORD', 'root' );
+	define( 'DB_HOST', 'localhost' );
+
+} else {
+    define( 'DB_NAME', 'meatindeed' );
+	define( 'DB_USER', 'meatindeed' );
+	define( 'DB_PASSWORD', 'grTydh5$reg9o' );
+	define( 'DB_HOST', 'localhost' );
+}
+
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'meatindeed' );
 
