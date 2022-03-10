@@ -333,15 +333,30 @@ ul.products li.product{
     .main-navigation > .menu{
         background-color: black;
     }
-
-    
-    
-   
-     
+  
 }
 /* Acaban estilos del customizer */
 
-/* New Style */
+/* ------------------------------------------------------------New Style */
+
+.has-text-align-center{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.woocommerce-products-header__title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.main-navigation ul li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+
 @media screen and ( max-width: 767px ) {
     .storefront-primary-navigation .menu{
         background-color: black;
