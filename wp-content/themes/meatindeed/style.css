@@ -349,7 +349,7 @@ ul.products li.product{
 
 .woocommerce-products-header__title{
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* Menu Principal */
@@ -360,6 +360,8 @@ ul.products li.product{
 
 .secondary-navigation ul.menu a {
     color: #961b05;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
     
 }
 .secondary-navigation ul.menu a:hover {
