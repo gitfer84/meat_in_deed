@@ -1,6 +1,7 @@
 <?php
 function meat_in_deed_files(){
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap' );
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 }
 add_action('wp_enqueue_scripts', 'meat_in_deed_files');
 
