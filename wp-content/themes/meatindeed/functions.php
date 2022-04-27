@@ -20,3 +20,41 @@ function meatindeed_nuevo_footer(){
     echo '</div>';
 
 }
+
+/* Hace los campos del formulario de pago obligatorios */
+
+add_filter('woocommerce_billing_fields', 'force_billing_fields', 1000, 1);
+
+function force_billing_fields($fields) {
+
+$fields['billing_first_name']['required'] = true; //First Name
+
+$fields['billing_last_name']['required'] = true; //Last Name
+
+$fields['billing_email']['required'] = true; //Email
+
+$fields['billing_phone']['required'] = true; //Phone number
+
+return $fields;
+
+}
+
+add_filter( 'woocommerce_default_address_fields', 'customize_extra_fields', 1000, 1 );
+
+function customize_extra_fields( $address_fields ) {
+
+$address_fields['company']['required'] = false; //Company name
+
+$address_fields['address_1']['required'] = true; //Address
+
+$address_fields['country']['required'] = false; //Country
+
+$address_fields['city']['required'] = true; //City
+
+$address_fields['state']['required'] = true; //State
+
+$address_fields['postcode']['required'] = true; //Postcode
+
+return $address_fields;
+
+}
